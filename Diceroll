@@ -1,0 +1,8 @@
+import random as rn
+while True:
+  user=input("Do you want to roll dice: ")
+  if user=="yes":
+    num=rn.randint(1,6)
+    print(num)
+  else:
+    break
